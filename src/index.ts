@@ -1,6 +1,8 @@
+export * from "./components";
+
 import * as BS_LIB from "gd-bs";
-import * as Components from "./components";
+import * as BS_React from "./components";
 
 // Update the global variable
-export const GD = { ...Components, ...BS_LIB }
+const GD = { ...BS_React, ...BS_LIB }
 window["GD"] = GD;
