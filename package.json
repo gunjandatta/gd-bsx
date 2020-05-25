@@ -1,6 +1,6 @@
 {
   "name": "gd-bsx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Extends the gd-bs Bootstrap JavaScript components to react components.",
   "main": "dist/gd-bsx.min.js",
   "scripts": {
