@@ -1,6 +1,9 @@
 import { Components } from "gd-bs";
 import { Base } from "./base";
 
+// Default Components
+export { Components }
+
 // Accordion
 export class Accordion extends Base<Components.IAccordionProps> {
     // Render the bootstrap component

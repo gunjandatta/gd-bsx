@@ -1,5 +1,6 @@
 import { Components } from "gd-bs";
 import { Base } from "./base";
+export { Components };
 export declare class Accordion extends Base<Components.IAccordionProps> {
     onRender(props: any): void;
 }
