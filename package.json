@@ -1,9 +1,9 @@
 {
   "name": "gd-bsx",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Extends the gd-bs Bootstrap JavaScript components to react components.",
   "main": "dist/gd-bsx.min.js",
-  "typings": "build/index.d.ts",
+  "typings": "typings/index.d.ts",
   "scripts": {
     "all": "npm run build && npm run prod && npm run typings",
     "build": "webpack --mode=development",
