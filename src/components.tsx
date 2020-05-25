@@ -90,3 +90,93 @@ export class Jumbotron extends Base<Components.IJumbotronProps> {
     // Render the bootstrap component
     onRender(props) { Components.Jumbotron(props); }
 }
+
+// ListBox
+export class ListBox extends Base<Components.IListBoxProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.ListBox(props); }
+}
+
+// ListGroup
+export class ListGroup extends Base<Components.IListGroupProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.ListGroup(props); }
+}
+
+// Media
+export class Media extends Base<Components.IMediaProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Media(props); }
+}
+
+// Media List
+export class MediaList extends Base<Components.IMediaListProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.MediaList(props); }
+}
+
+// Modal
+export class Modal extends Base<Components.IModalProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Modal(props); }
+}
+
+// Nav
+export class Nav extends Base<Components.INavProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Nav(props); }
+}
+
+// Navbar
+export class Navbar extends Base<Components.INavbarProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Navbar(props); }
+}
+
+// Pagination
+export class Pagination extends Base<Components.IPaginationProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Pagination(props); }
+}
+
+// Panel
+export class Panel extends Base<Components.IPanelProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Panel(props); }
+}
+
+// Popover
+export class Popover extends Base<Components.IPopoverProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Popover(props); }
+}
+
+// Progress
+export class Progress extends Base<Components.IProgressProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Progress(props); }
+}
+
+// Spinner
+export class Spinner extends Base<Components.ISpinnerProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Spinner(props); }
+}
+
+// Table
+export class Table extends Base<Components.ITableProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Table(props); }
+}
+
+// Toolbar
+export class Toolbar extends Base<Components.IToolbarProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Toolbar(props); }
+}
+
+// Tooltip
+export class Tooltip extends Base<Components.ITooltipProps> {
+    // Render the bootstrap component
+    onRender(props) { Components.Tooltip(props); }
+}

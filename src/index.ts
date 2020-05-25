@@ -4,4 +4,7 @@ import * as GD from "gd-bs";
 import * as Components from "./components";
 
 // Update the global variable
-window["GD"] = { ...Components, ...GD }
+const global_var = { ...Components, ...GD }
+window["GD"] = global_var;
+
+export default global_var;
