@@ -1,16 +1,10 @@
-import { Components } from "gd-bs";
 import { Base } from "./base";
-
-// Fix the library
-if (Components == null) {
-    (Components as any) = window["GD"] && window["GD"].Components;
-}
-export { Components }
+import Components from "./lib";
 
 // Accordion
 export class Accordion extends Base<Components.IAccordionProps> {
     // Render the bootstrap component
-    onRender(props) { Components.Accordion(props); } x
+    onRender(props) { Components.Accordion(props); }
 }
 
 // Alert

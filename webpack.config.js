@@ -7,7 +7,7 @@ module.exports = (env, argv) => {
     var config = {
         entry: [
             "./node_modules/gd-bs/dist/gd-bs.min.js",
-            path.resolve(__dirname, "src/index.ts")
+            path.resolve(__dirname, "build/index.js")
         ],
         externals: {
             "gd-bs": "GD"
@@ -31,9 +31,6 @@ module.exports = (env, argv) => {
                             options: {
                                 presets: ["@babel/preset-env", "@babel/preset-react"]
                             }
-                        },
-                        {
-                            loader: "ts-loader"
                         }
                     ]
                 }
