@@ -3,6 +3,7 @@ import { Base } from "./base";
 export { Components };
 export declare class Accordion extends Base<Components.IAccordionProps> {
     onRender(props: any): void;
+    x: any;
 }
 export declare class Alert extends Base<Components.IAlertProps> {
     onRender(props: any): void;
