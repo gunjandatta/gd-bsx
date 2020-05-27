@@ -1461,8 +1461,8 @@ packages:
   /browserslist/4.12.0:
     dependencies:
       caniuse-lite: 1.0.30001066
-      electron-to-chromium: 1.3.452
-      node-releases: 1.1.56
+      electron-to-chromium: 1.3.453
+      node-releases: 1.1.57
       pkg-up: 2.0.0
     dev: true
     hasBin: true
@@ -1865,10 +1865,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==
-  /electron-to-chromium/1.3.452:
+  /electron-to-chromium/1.3.453:
     dev: true
     resolution:
-      integrity: sha512-IdbjgCEqDvcU/1kUQa6C49I2NZOY3SBmU9Eus7mdFdJJBqn0Lg1Epfi/T4nqVcxTNBEGhcjwMhY1EysMBsXZrw==
+      integrity: sha512-IQbCfjJR0NDDn/+vojTlq7fPSREcALtF8M1n01gw7nQghCtfFYrJ2dfhsp8APr8bANoFC8vRTFVXMOGpT0eetw==
   /elliptic/6.5.2:
     dependencies:
       bn.js: 4.11.9
@@ -3011,10 +3011,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-h/zcD8H9kaDZ9ALUWwlBUDo6TKF8a7qBSCSEGfjTVIYeqsioSKaAX+BN7NgiMGp6iSIXZ3PxgCu8KS3b71YK5Q==
-  /node-releases/1.1.56:
+  /node-releases/1.1.57:
     dev: true
     resolution:
-      integrity: sha512-EVo605FhWLygH8a64TjgpjyHYOihkxECwX1bHHr8tETJKWEiWS2YJjPbvsX2jFjnjTNEgBCmk9mLjKG1Mf11cw==
+      integrity: sha512-ZQmnWS7adi61A9JsllJ2gdj2PauElcjnOwTp2O011iGzoakTxUsDGSe+6vD7wXbKdqhSFymC0OSx35aAMhrSdw==
   /normalize-path/2.1.1:
     dependencies:
       remove-trailing-separator: 1.1.0
