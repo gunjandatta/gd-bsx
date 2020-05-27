@@ -5,7 +5,8 @@
   "main": "build/index.js",
   "typings": "build/index.d.ts",
   "scripts": {
-    "all": "npm run build && npm run prod",
+    "all": "npm run clean && npm run build && npm run prod",
+    "clean": "node ./clean.js",
     "build": "tsc && webpack --mode=development",
     "prod": "webpack --mode=production"
   },
