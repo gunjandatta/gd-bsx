@@ -110,6 +110,18 @@ eval("\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var 
 
 /***/ }),
 
+/***/ "./build/iconTypes.js":
+/*!****************************!*\
+  !*** ./build/iconTypes.js ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar gd_bs_1 = __webpack_require__(/*! gd-bs */ \"./node_modules/.pnpm/registry.npmjs.org/gd-bs/2.4.5/node_modules/gd-bs/dist/gd-bs.js\");\r\n// Ensure the Icon Types reference exists\r\nif (gd_bs_1.IconTypes == null) {\r\n    // Update it to the global variable\r\n    console.log(\"[Dev] The icon types variable is null. Defaulting to the global variable.\");\r\n    gd_bs_1.IconTypes = window[\"GD\"] && window[\"GD\"].IconTypes;\r\n}\r\n// This will ensure the export occurs at the end of the compiled file\r\nexports.default = gd_bs_1.IconTypes;\r\n\n\n//# sourceURL=webpack:///./build/iconTypes.js?");
+
+/***/ }),
+
 /***/ "./build/icons.js":
 /*!************************!*\
   !*** ./build/icons.js ***!
@@ -130,7 +142,7 @@ eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nva
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __assign = (this && this.__assign) || function () {\r\n    __assign = Object.assign || function(t) {\r\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\r\n            s = arguments[i];\r\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\r\n                t[p] = s[p];\r\n        }\r\n        return t;\r\n    };\r\n    return __assign.apply(this, arguments);\r\n};\r\nfunction __export(m) {\r\n    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];\r\n}\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n// Export the react components\r\n__export(__webpack_require__(/*! ./components */ \"./build/components.js\"));\r\n// Export the components\r\nvar lib_1 = __webpack_require__(/*! ./lib */ \"./build/lib.js\");\r\nexports.Components = lib_1.default;\r\n// Export the icons\r\nvar icons_1 = __webpack_require__(/*! ./icons */ \"./build/icons.js\");\r\nexports.Icons = icons_1.default;\r\n// Export the icon types\r\nvar icons_2 = __webpack_require__(/*! ./icons */ \"./build/icons.js\");\r\nexports.IconTypes = icons_2.default;\r\n// Update the global variable\r\nvar ReactComponents = __webpack_require__(/*! ./components */ \"./build/components.js\");\r\nwindow[\"GD\"] = __assign(__assign({}, window[\"GD\"]), ReactComponents);\r\n\n\n//# sourceURL=webpack:///./build/index.js?");
+eval("\r\nvar __assign = (this && this.__assign) || function () {\r\n    __assign = Object.assign || function(t) {\r\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\r\n            s = arguments[i];\r\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\r\n                t[p] = s[p];\r\n        }\r\n        return t;\r\n    };\r\n    return __assign.apply(this, arguments);\r\n};\r\nfunction __export(m) {\r\n    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];\r\n}\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n// Export the react components\r\n__export(__webpack_require__(/*! ./components */ \"./build/components.js\"));\r\n// Export the components\r\nvar lib_1 = __webpack_require__(/*! ./lib */ \"./build/lib.js\");\r\nexports.Components = lib_1.default;\r\n// Export the icons\r\nvar icons_1 = __webpack_require__(/*! ./icons */ \"./build/icons.js\");\r\nexports.Icons = icons_1.default;\r\n// Export the icon types\r\nvar iconTypes_1 = __webpack_require__(/*! ./iconTypes */ \"./build/iconTypes.js\");\r\nexports.IconTypes = iconTypes_1.default;\r\n// Update the global variable\r\nvar ReactComponents = __webpack_require__(/*! ./components */ \"./build/components.js\");\r\nwindow[\"GD\"] = __assign(__assign({}, window[\"GD\"]), ReactComponents);\r\n\n\n//# sourceURL=webpack:///./build/index.js?");
 
 /***/ }),
 

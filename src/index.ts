@@ -10,7 +10,7 @@ import Icons from "./icons";
 export { Icons }
 
 // Export the icon types
-import IconTypes from "./icons";
+import IconTypes from "./iconTypes";
 export { IconTypes }
 
 // Update the global variable
