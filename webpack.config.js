@@ -5,13 +5,7 @@ module.exports = (env, argv) => {
 
     // Return the configuration
     var config = {
-        entry: [
-            "./node_modules/gd-bs/dist/gd-bs.min.js",
-            path.resolve(__dirname, "build/index.js")
-        ],
-        externals: {
-            "gd-bs": "GD"
-        },
+        entry: path.resolve(__dirname, "build/index.js"),
         output: {
             path: path.resolve(__dirname, "dist"),
             filename: "gd-bsx" + (isDev ? "" : ".min") + ".js"
