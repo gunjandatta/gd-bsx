@@ -15,9 +15,9 @@ module.exports = (env, argv) => {
         },
         module: {
             rules: [
-                // Handle TypeScript Files
+                // Handle JavaScript Files
                 {
-                    test: /\.tsx?$/,
+                    test: /\.jsx?$/,
                     exclude: /node_modules/,
                     use: [
                         {
