@@ -1,6 +1,6 @@
 {
   "name": "gd-bsx",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Extends the gd-bs Bootstrap JavaScript components to react components.",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
@@ -14,9 +14,12 @@
     "type": "git",
     "url": "git+https://github.com/gunjandatta/gd-bsx.git"
   },
-  "keywords": [],
-  "author": "Gunjan Datta <me@dattabase.com>",
-  "license": "ISC",
+  "keywords": [
+    "Bootstrap",
+    "React"
+  ],
+  "author": "Gunjan Datta <me@dattabase.com> (https://dattabase.com)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gunjandatta/gd-bsx/issues"
   },
