@@ -1,5 +1,5 @@
+import { Components } from "gd-bs";
 import { Base } from "./base";
-import Components from "./lib";
 
 // Accordion
 export class Accordion extends Base<Components.IAccordionProps> {
