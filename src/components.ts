@@ -213,7 +213,14 @@ export class Pagination extends Base<Types.IPaginationProps> {
 // Panel
 export class Panel extends Base<Types.IPanelProps> {
     // Render the bootstrap component
-    onRender(props) { Components.Panel(props); }
+    onRender(props) {
+        // Fix the properties
+        Base.fixProperty(props.modalProps, "body");
+        Base.fixProperty(props.modalProps, "footer");
+
+        // Render the component
+        Components.Panel(props);
+    }
 }
 
 // Popover
