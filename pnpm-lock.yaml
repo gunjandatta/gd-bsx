@@ -1,5 +1,5 @@
 dependencies:
-  gd-bs: 2.7.0
+  gd-bs: 2.7.1
 devDependencies:
   '@babel/core': 7.10.2
   '@babel/preset-env': 7.10.2_@babel+core@7.10.2
@@ -2249,14 +2249,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/2.7.0:
+  /gd-bs/2.7.1:
     dependencies:
       bootstrap: 4.5.0_jquery@3.5.1+popper.js@1.16.1
       jquery: 3.5.1
       popper.js: 1.16.1
     dev: false
     resolution:
-      integrity: sha512-SpvKWn2/xiyS7AYPH6U1PLIyteYPyZwUWBoRgdGB2PtP3k4J7MZrimP8e68ly0Hq0wnTJHkiNoEf284Eo51HjA==
+      integrity: sha512-xb8NkWuQyStgKqnSYoankXoWYzpUo9hOeFgDB8+TDmpXQe/2lTSt6vexhjA0GganImy8bLDTvyUAYBRFprhxmA==
   /gensync/1.0.0-beta.1:
     dev: true
     engines:
@@ -4415,7 +4415,7 @@ specifiers:
   '@types/react': ^16.9.38
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
-  gd-bs: ^2.7.0
+  gd-bs: ^2.7.1
   html-loader: ^1.1.0
   react: ^16.13.1
   react-dom: ^16.13.1
