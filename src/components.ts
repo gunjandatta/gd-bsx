@@ -191,19 +191,6 @@ export class Pagination extends Base<Types.IPaginationProps> {
     onRender(props) { Components.Pagination(props); }
 }
 
-// Panel
-export class Panel extends Base<Types.IPanelProps> {
-    // Render the bootstrap component
-    onRender(props) {
-        // Fix the properties
-        Base.fixProperty(props.modalProps, "body");
-        Base.fixProperty(props.modalProps, "footer");
-
-        // Render the component
-        Components.Panel(props);
-    }
-}
-
 // Popover
 export class Popover extends Base<Types.IPopoverProps> {
     // Render the bootstrap component

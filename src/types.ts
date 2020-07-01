@@ -36,10 +36,6 @@ export interface IListGroupProps extends ListGroupProps<JSX.Element> { }
 import { IModalProps as ModalProps } from "gd-bs/@types/components/modal";
 export interface IModalProps extends ModalProps<JSX.Element> { }
 
-// Panel
-import { IPanelProps as PanelProps } from "gd-bs/@types/components/panel";
-export interface IPanelProps extends PanelProps<JSX.Element> { }
-
 // Nav
 import { INavProps as NavProps } from "gd-bs/@types/components/nav";
 export interface INavProps extends NavProps<JSX.Element> { }
