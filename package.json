@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/gunjandatta/gd-bsx#readme",
   "dependencies": {
-    "gd-bs": "^3.0.3"
+    "gd-bs": "^3.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
