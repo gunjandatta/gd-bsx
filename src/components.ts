@@ -154,25 +154,6 @@ export class ListGroup extends Base<Types.IListGroupProps> {
     }
 }
 
-// Media
-export class Media extends Base<Types.IMediaProps> {
-    // Render the bootstrap component
-    onRender(props) {
-        // Fix the properties
-        Base.fixProperty(props, "content");
-        Base.fixCollection(props.items, ["content"]);
-
-        // Render the component
-        Components.Media(props);
-    }
-}
-
-// Media List
-export class MediaList extends Base<Types.IMediaListProps> {
-    // Render the bootstrap component
-    onRender(props) { Components.MediaList(props); }
-}
-
 // Modal
 export class Modal extends Base<Types.IModalProps> {
     // Render the bootstrap component

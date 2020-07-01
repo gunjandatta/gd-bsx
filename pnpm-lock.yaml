@@ -1,5 +1,5 @@
 dependencies:
-  gd-bs: 2.7.8
+  gd-bs: 3.0.0
 devDependencies:
   '@babel/core': 7.10.4
   '@babel/preset-env': 7.10.4_@babel+core@7.10.4
@@ -778,7 +778,7 @@ packages:
   /@babel/plugin-transform-regenerator/7.10.4_@babel+core@7.10.4:
     dependencies:
       '@babel/core': 7.10.4
-      regenerator-transform: 0.14.4
+      regenerator-transform: 0.14.5
     dev: true
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1012,7 +1012,7 @@ packages:
   /@types/react/16.9.41:
     dependencies:
       '@types/prop-types': 15.7.3
-      csstype: 2.6.10
+      csstype: 2.6.11
     dev: true
     resolution:
       integrity: sha512-6cFei7F7L4wwuM+IND/Q2cV1koQUvJ8iSV+Gwn0c3kvABZ691g7sp3hfEQHOUBJtccl1gPi+EyNjMIl9nGA0ug==
@@ -1358,16 +1358,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-40rZaf3bUNKTVYu9sIeeEGOg7g14Yvnj9kH7b50EiwX0Q7A6umbvfI5tvHaOERH0XigqKkfLkFQxzb4e6CIXnA==
-  /bootstrap/4.5.0_jquery@3.5.1+popper.js@1.16.1:
+  /bootstrap/5.0.0-alpha1_popper.js@1.16.1:
     dependencies:
-      jquery: 3.5.1
       popper.js: 1.16.1
     dev: false
     peerDependencies:
-      jquery: 1.9.1 - 3
       popper.js: ^1.16.0
     resolution:
-      integrity: sha512-Z93QoXvodoVslA+PWNdk23Hze4RBYIkpb5h8I2HY2Tu2h7A0LpAgLcyrhrSUyo2/Oxm2l1fRZPs1e5hnxnliXA==
+      integrity: sha512-iwKneP2pLXl8lN0YpnOuOARiNPTzmh/4cw+Un86u4OqrMLuQpyMC7nO07hvivvcg0B/ektJPjuPnS1s+YmRK9A==
   /brace-expansion/1.1.11:
     dependencies:
       balanced-match: 1.0.0
@@ -1462,7 +1460,7 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.12.2:
     dependencies:
-      caniuse-lite: 1.0.30001090
+      caniuse-lite: 1.0.30001091
       electron-to-chromium: 1.3.483
       escalade: 3.0.1
       node-releases: 1.1.58
@@ -1541,10 +1539,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
-  /caniuse-lite/1.0.30001090:
+  /caniuse-lite/1.0.30001091:
     dev: true
     resolution:
-      integrity: sha512-QzPRKDCyp7RhjczTPZaqK3CjPA5Ht2UnXhZhCI4f7QiB5JK6KEuZBxIzyWnB3wO4hgAj4GMRxAhuiacfw0Psjg==
+      integrity: sha512-ECd8gfBBpv0GKsEYY5052+8PBjExiugDoi3dfkJcxujh2mf7kiuDvb1o27GXlOOGopKiIPYEX8XDPYj7eo3E9w==
   /chalk/2.4.2:
     dependencies:
       ansi-styles: 3.2.1
@@ -1788,10 +1786,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-fz4spIh+znjO2VjL+IdhEpRJ3YN6sMzITSBijk6FK2UvTqruSQW+/cCZTSNsMiZNvUeq0CqurF+dAbyiGOY6Wg==
-  /csstype/2.6.10:
+  /csstype/2.6.11:
     dev: true
     resolution:
-      integrity: sha512-D34BqZU4cIlMCY93rZHbrq9pjTAQJ3U8S8rfBqjwHxkGPThWFjzZDQpgMJY0QViLxth6ZKYiwFBo14RdN44U/w==
+      integrity: sha512-l8YyEC9NBkSm783PFTvh0FmJy7s5pFKrDp49ZL7zBGX3fWkO+N4EEyan1qqp8cwPLDcD0OSdyY6hAMoxp34JFw==
   /cyclist/1.0.1:
     dev: true
     resolution:
@@ -2219,14 +2217,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/2.7.8:
+  /gd-bs/3.0.0:
     dependencies:
-      bootstrap: 4.5.0_jquery@3.5.1+popper.js@1.16.1
-      jquery: 3.5.1
+      bootstrap: 5.0.0-alpha1_popper.js@1.16.1
       popper.js: 1.16.1
     dev: false
     resolution:
-      integrity: sha512-c3It5lu09/RQxKJXlXx2ijmOrERKkHl8ABKSqjSshei3HC3NEZVrGVKhtW0+3UWYL/XFx35uqGu9faU11W7/ZA==
+      integrity: sha512-LLhBmPSO/fBcdXMP5hZpCYmKhIdeWCoNzdT7m+0N3JNheBMwDpXt73ucdlSx2Q0g/0Ev7L/2rkjWZMefi61a8A==
   /gensync/1.0.0-beta.1:
     dev: true
     engines:
@@ -2688,10 +2685,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
-  /jquery/3.5.1:
-    dev: false
-    resolution:
-      integrity: sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
   /js-tokens/4.0.0:
     dev: true
     resolution:
@@ -3272,12 +3265,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
-  /private/0.1.8:
-    dev: true
-    engines:
-      node: '>= 0.6'
-    resolution:
-      integrity: sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg==
   /process-nextick-args/2.0.1:
     dev: true
     resolution:
@@ -3460,13 +3447,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-ZS5w8CpKFinUzOwW3c83oPeVXoNsrLsaCoLtJvAClH135j/R77RuymhiSErhm2lKcwSCIpmvIWSbDkIfAqKQlA==
-  /regenerator-transform/0.14.4:
+  /regenerator-transform/0.14.5:
     dependencies:
       '@babel/runtime': 7.10.4
-      private: 0.1.8
     dev: true
     resolution:
-      integrity: sha512-EaJaKPBI9GvKpvUz2mz4fhx7WPgvwRLY9v3hlNHWmAuJHI13T4nwKnNvm5RWJzEdnI5g5UwtOww+S8IdoUC2bw==
+      integrity: sha512-eOf6vka5IO151Jfsw2NO9WpGX58W6wWmefK3I1zEGr0lOD0u8rwPaNqQL1aRxUaxLeKO3ArNh3VYg1KbaD+FFw==
   /regex-not/1.0.2:
     dependencies:
       extend-shallow: 3.0.2
@@ -4237,7 +4223,7 @@ specifiers:
   '@types/react': ^16.9.41
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
-  gd-bs: ^2.7.8
+  gd-bs: ^3.0.0
   html-loader: ^1.1.0
   react: ^16.13.1
   react-dom: ^16.13.1

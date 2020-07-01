@@ -32,10 +32,6 @@ export interface IJumbotronProps extends JumbotronProps<JSX.Element> { }
 import { IListGroupProps as ListGroupProps } from "gd-bs/@types/components/listGroup";
 export interface IListGroupProps extends ListGroupProps<JSX.Element> { }
 
-// Media
-import { IMediaProps as MediaProps } from "gd-bs/@types/components/media";
-export interface IMediaProps extends MediaProps<JSX.Element> { }
-
 // Modal
 import { IModalProps as ModalProps } from "gd-bs/@types/components/modal";
 export interface IModalProps extends ModalProps<JSX.Element> { }
