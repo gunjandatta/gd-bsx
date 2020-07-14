@@ -1,6 +1,6 @@
 {
   "name": "gd-bsx",
-  "version": "0.5.9",
+  "version": "0.6.0",
   "description": "Extends the gd-bs Bootstrap JavaScript components to react components.",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
@@ -25,13 +25,13 @@
   },
   "homepage": "https://github.com/gunjandatta/gd-bsx#readme",
   "dependencies": {
-    "gd-bs": "^3.0.8"
+    "gd-bs": "^3.0.9"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
-    "@types/react": "^16.9.41",
+    "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
     "babel-loader": "^8.1.0",
     "html-loader": "^1.1.0",
