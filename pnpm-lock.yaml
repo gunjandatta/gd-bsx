@@ -1,3 +1,5 @@
+dependencies:
+  gd-bs: 3.6.2
 devDependencies:
   '@babel/core': 7.10.5
   '@babel/preset-env': 7.10.4_@babel+core@7.10.5
@@ -5,7 +7,6 @@ devDependencies:
   '@types/react': 16.9.43
   '@types/react-dom': 16.9.8
   babel-loader: 8.1.0_13c776b87d2822e76e5e552d0872621e
-  gd-bs: 3.6.2
   html-loader: 1.1.0_webpack@4.43.0
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
@@ -1356,7 +1357,7 @@ packages:
     resolution:
       integrity: sha512-40rZaf3bUNKTVYu9sIeeEGOg7g14Yvnj9kH7b50EiwX0Q7A6umbvfI5tvHaOERH0XigqKkfLkFQxzb4e6CIXnA==
   /bootstrap-icons/1.0.0:
-    dev: true
+    dev: false
     engines:
       node: '>=10'
     resolution:
@@ -1364,7 +1365,7 @@ packages:
   /bootstrap/5.0.0-alpha2_popper.js@1.16.1:
     dependencies:
       popper.js: 1.16.1
-    dev: true
+    dev: false
     peerDependencies:
       popper.js: ^1.16.1
     resolution:
@@ -2225,7 +2226,7 @@ packages:
       bootstrap: 5.0.0-alpha2_popper.js@1.16.1
       bootstrap-icons: 1.0.0
       popper.js: 1.16.1
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-wGdu4XeX9o8Fb/Yhq5tCQN7xc2G998Fpyga9/E0yU1L8lx2Q+4/SeIus6ahK4QuLCJ47DEtox+4atcFs9OCobg==
   /gensync/1.0.0-beta.1:
@@ -3260,7 +3261,7 @@ packages:
       integrity: sha512-/E57AYkoeQ25qkxMj5PBOVgF8Kiu/h7cYS30Z5+R7WaiCCBfLq58ZI/dSeaEKb9WVJV5n/03QwrN3IeWIFllvw==
   /popper.js/1.16.1:
     deprecated: 'You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1'
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
   /posix-character-classes/0.1.1:
@@ -4227,7 +4228,7 @@ specifiers:
   '@types/react': ^16.9.43
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
-  gd-bs: ^3.6.2
+  gd-bs: '*'
   html-loader: ^1.1.0
   react: ^16.13.1
   react-dom: ^16.13.1
